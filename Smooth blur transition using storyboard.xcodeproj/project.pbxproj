@@ -14,6 +14,9 @@
 		1AB005A91DC186A700F95700 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AB005A71DC186A700F95700 /* LaunchScreen.storyboard */; };
 		1AB005B41DC186A700F95700 /* Smooth_blur_transition_using_storyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB005B31DC186A700F95700 /* Smooth_blur_transition_using_storyboardTests.swift */; };
 		1AB005BF1DC186A700F95700 /* Smooth_blur_transition_using_storyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB005BE1DC186A700F95700 /* Smooth_blur_transition_using_storyboardUITests.swift */; };
+		1AB005CD1DC186EA00F95700 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB005CC1DC186EA00F95700 /* UIImageExtensions.swift */; };
+		1AB005CF1DC1885700F95700 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB005CE1DC1885700F95700 /* CustomButton.swift */; };
+		1AB005D11DC18D6600F95700 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB005D01DC18D6600F95700 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		1AB005BA1DC186A700F95700 /* Smooth blur transition using storyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smooth blur transition using storyboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AB005BE1DC186A700F95700 /* Smooth_blur_transition_using_storyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smooth_blur_transition_using_storyboardUITests.swift; sourceTree = "<group>"; };
 		1AB005C01DC186A700F95700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AB005CC1DC186EA00F95700 /* UIImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
+		1AB005CE1DC1885700F95700 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		1AB005D01DC18D6600F95700 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 		1AB0059D1DC186A600F95700 /* Smooth blur transition using storyboard */ = {
 			isa = PBXGroup;
 			children = (
+				1AB005D01DC18D6600F95700 /* SecondViewController.swift */,
+				1AB005CC1DC186EA00F95700 /* UIImageExtensions.swift */,
+				1AB005CE1DC1885700F95700 /* CustomButton.swift */,
 				1AB0059E1DC186A700F95700 /* AppDelegate.swift */,
 				1AB005A01DC186A700F95700 /* ViewController.swift */,
 				1AB005A21DC186A700F95700 /* Main.storyboard */,
@@ -262,7 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AB005CF1DC1885700F95700 /* CustomButton.swift in Sources */,
+				1AB005CD1DC186EA00F95700 /* UIImageExtensions.swift in Sources */,
 				1AB005A11DC186A700F95700 /* ViewController.swift in Sources */,
+				1AB005D11DC18D6600F95700 /* SecondViewController.swift in Sources */,
 				1AB0059F1DC186A700F95700 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
