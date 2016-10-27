@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AB0059F1DC186A700F95700 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB0059E1DC186A700F95700 /* AppDelegate.swift */; };
+		1AB005A11DC186A700F95700 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB005A01DC186A700F95700 /* ViewController.swift */; };
+		1AB005A41DC186A700F95700 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AB005A21DC186A700F95700 /* Main.storyboard */; };
+		1AB005A61DC186A700F95700 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AB005A51DC186A700F95700 /* Assets.xcassets */; };
+		1AB005A91DC186A700F95700 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AB005A71DC186A700F95700 /* LaunchScreen.storyboard */; };
+		1AB005B41DC186A700F95700 /* Smooth_blur_transition_using_storyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB005B31DC186A700F95700 /* Smooth_blur_transition_using_storyboardTests.swift */; };
+		1AB005BF1DC186A700F95700 /* Smooth_blur_transition_using_storyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB005BE1DC186A700F95700 /* Smooth_blur_transition_using_storyboardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AB005B01DC186A700F95700 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AB005931DC186A600F95700 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AB0059A1DC186A600F95700;
+			remoteInfo = "Smooth blur transition using storyboard";
+		};
+		1AB005BB1DC186A700F95700 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AB005931DC186A600F95700 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AB0059A1DC186A600F95700;
+			remoteInfo = "Smooth blur transition using storyboard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AB0059B1DC186A600F95700 /* Smooth blur transition using storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smooth blur transition using storyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB0059E1DC186A700F95700 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1AB005A01DC186A700F95700 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1AB005A31DC186A700F95700 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AB005A51DC186A700F95700 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AB005A81DC186A700F95700 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1AB005AA1DC186A700F95700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AB005AF1DC186A700F95700 /* Smooth blur transition using storyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smooth blur transition using storyboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB005B31DC186A700F95700 /* Smooth_blur_transition_using_storyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smooth_blur_transition_using_storyboardTests.swift; sourceTree = "<group>"; };
+		1AB005B51DC186A700F95700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AB005BA1DC186A700F95700 /* Smooth blur transition using storyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smooth blur transition using storyboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB005BE1DC186A700F95700 /* Smooth_blur_transition_using_storyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smooth_blur_transition_using_storyboardUITests.swift; sourceTree = "<group>"; };
+		1AB005C01DC186A700F95700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AB005981DC186A600F95700 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB005AC1DC186A700F95700 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB005B71DC186A700F95700 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AB005921DC186A600F95700 = {
+			isa = PBXGroup;
+			children = (
+				1AB0059D1DC186A600F95700 /* Smooth blur transition using storyboard */,
+				1AB005B21DC186A700F95700 /* Smooth blur transition using storyboardTests */,
+				1AB005BD1DC186A700F95700 /* Smooth blur transition using storyboardUITests */,
+				1AB0059C1DC186A600F95700 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AB0059C1DC186A600F95700 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AB0059B1DC186A600F95700 /* Smooth blur transition using storyboard.app */,
+				1AB005AF1DC186A700F95700 /* Smooth blur transition using storyboardTests.xctest */,
+				1AB005BA1DC186A700F95700 /* Smooth blur transition using storyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AB0059D1DC186A600F95700 /* Smooth blur transition using storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				1AB0059E1DC186A700F95700 /* AppDelegate.swift */,
+				1AB005A01DC186A700F95700 /* ViewController.swift */,
+				1AB005A21DC186A700F95700 /* Main.storyboard */,
+				1AB005A51DC186A700F95700 /* Assets.xcassets */,
+				1AB005A71DC186A700F95700 /* LaunchScreen.storyboard */,
+				1AB005AA1DC186A700F95700 /* Info.plist */,
+			);
+			path = "Smooth blur transition using storyboard";
+			sourceTree = "<group>";
+		};
+		1AB005B21DC186A700F95700 /* Smooth blur transition using storyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AB005B31DC186A700F95700 /* Smooth_blur_transition_using_storyboardTests.swift */,
+				1AB005B51DC186A700F95700 /* Info.plist */,
+			);
+			path = "Smooth blur transition using storyboardTests";
+			sourceTree = "<group>";
+		};
+		1AB005BD1DC186A700F95700 /* Smooth blur transition using storyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1AB005BE1DC186A700F95700 /* Smooth_blur_transition_using_storyboardUITests.swift */,
+				1AB005C01DC186A700F95700 /* Info.plist */,
+			);
+			path = "Smooth blur transition using storyboardUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AB0059A1DC186A600F95700 /* Smooth blur transition using storyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AB005C31DC186A700F95700 /* Build configuration list for PBXNativeTarget "Smooth blur transition using storyboard" */;
+			buildPhases = (
+				1AB005971DC186A600F95700 /* Sources */,
+				1AB005981DC186A600F95700 /* Frameworks */,
+				1AB005991DC186A600F95700 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Smooth blur transition using storyboard";
+			productName = "Smooth blur transition using storyboard";
+			productReference = 1AB0059B1DC186A600F95700 /* Smooth blur transition using storyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AB005AE1DC186A700F95700 /* Smooth blur transition using storyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AB005C61DC186A700F95700 /* Build configuration list for PBXNativeTarget "Smooth blur transition using storyboardTests" */;
+			buildPhases = (
+				1AB005AB1DC186A700F95700 /* Sources */,
+				1AB005AC1DC186A700F95700 /* Frameworks */,
+				1AB005AD1DC186A700F95700 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AB005B11DC186A700F95700 /* PBXTargetDependency */,
+			);
+			name = "Smooth blur transition using storyboardTests";
+			productName = "Smooth blur transition using storyboardTests";
+			productReference = 1AB005AF1DC186A700F95700 /* Smooth blur transition using storyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1AB005B91DC186A700F95700 /* Smooth blur transition using storyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AB005C91DC186A700F95700 /* Build configuration list for PBXNativeTarget "Smooth blur transition using storyboardUITests" */;
+			buildPhases = (
+				1AB005B61DC186A700F95700 /* Sources */,
+				1AB005B71DC186A700F95700 /* Frameworks */,
+				1AB005B81DC186A700F95700 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AB005BC1DC186A700F95700 /* PBXTargetDependency */,
+			);
+			name = "Smooth blur transition using storyboardUITests";
+			productName = "Smooth blur transition using storyboardUITests";
+			productReference = 1AB005BA1DC186A700F95700 /* Smooth blur transition using storyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AB005931DC186A600F95700 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Yung Dai";
+				TargetAttributes = {
+					1AB0059A1DC186A600F95700 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = W9YJQYCY2W;
+						ProvisioningStyle = Automatic;
+					};
+					1AB005AE1DC186A700F95700 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = W9YJQYCY2W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1AB0059A1DC186A600F95700;
+					};
+					1AB005B91DC186A700F95700 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = W9YJQYCY2W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1AB0059A1DC186A600F95700;
+					};
+				};
+			};
+			buildConfigurationList = 1AB005961DC186A600F95700 /* Build configuration list for PBXProject "Smooth blur transition using storyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AB005921DC186A600F95700;
+			productRefGroup = 1AB0059C1DC186A600F95700 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AB0059A1DC186A600F95700 /* Smooth blur transition using storyboard */,
+				1AB005AE1DC186A700F95700 /* Smooth blur transition using storyboardTests */,
+				1AB005B91DC186A700F95700 /* Smooth blur transition using storyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AB005991DC186A600F95700 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB005A91DC186A700F95700 /* LaunchScreen.storyboard in Resources */,
+				1AB005A61DC186A700F95700 /* Assets.xcassets in Resources */,
+				1AB005A41DC186A700F95700 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB005AD1DC186A700F95700 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB005B81DC186A700F95700 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AB005971DC186A600F95700 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB005A11DC186A700F95700 /* ViewController.swift in Sources */,
+				1AB0059F1DC186A700F95700 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB005AB1DC186A700F95700 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB005B41DC186A700F95700 /* Smooth_blur_transition_using_storyboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB005B61DC186A700F95700 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB005BF1DC186A700F95700 /* Smooth_blur_transition_using_storyboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AB005B11DC186A700F95700 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AB0059A1DC186A600F95700 /* Smooth blur transition using storyboard */;
+			targetProxy = 1AB005B01DC186A700F95700 /* PBXContainerItemProxy */;
+		};
+		1AB005BC1DC186A700F95700 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AB0059A1DC186A600F95700 /* Smooth blur transition using storyboard */;
+			targetProxy = 1AB005BB1DC186A700F95700 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AB005A21DC186A700F95700 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AB005A31DC186A700F95700 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AB005A71DC186A700F95700 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AB005A81DC186A700F95700 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AB005C11DC186A700F95700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AB005C21DC186A700F95700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AB005C41DC186A700F95700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W9YJQYCY2W;
+				INFOPLIST_FILE = "Smooth blur transition using storyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yungdai.com.Smooth-blur-transition-using-storyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1AB005C51DC186A700F95700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W9YJQYCY2W;
+				INFOPLIST_FILE = "Smooth blur transition using storyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yungdai.com.Smooth-blur-transition-using-storyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1AB005C71DC186A700F95700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W9YJQYCY2W;
+				INFOPLIST_FILE = "Smooth blur transition using storyboardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yungdai.com.Smooth-blur-transition-using-storyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smooth blur transition using storyboard.app/Smooth blur transition using storyboard";
+			};
+			name = Debug;
+		};
+		1AB005C81DC186A700F95700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W9YJQYCY2W;
+				INFOPLIST_FILE = "Smooth blur transition using storyboardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yungdai.com.Smooth-blur-transition-using-storyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smooth blur transition using storyboard.app/Smooth blur transition using storyboard";
+			};
+			name = Release;
+		};
+		1AB005CA1DC186A700F95700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = W9YJQYCY2W;
+				INFOPLIST_FILE = "Smooth blur transition using storyboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yungdai.com.Smooth-blur-transition-using-storyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Smooth blur transition using storyboard";
+			};
+			name = Debug;
+		};
+		1AB005CB1DC186A700F95700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = W9YJQYCY2W;
+				INFOPLIST_FILE = "Smooth blur transition using storyboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yungdai.com.Smooth-blur-transition-using-storyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Smooth blur transition using storyboard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AB005961DC186A600F95700 /* Build configuration list for PBXProject "Smooth blur transition using storyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB005C11DC186A700F95700 /* Debug */,
+				1AB005C21DC186A700F95700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AB005C31DC186A700F95700 /* Build configuration list for PBXNativeTarget "Smooth blur transition using storyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB005C41DC186A700F95700 /* Debug */,
+				1AB005C51DC186A700F95700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1AB005C61DC186A700F95700 /* Build configuration list for PBXNativeTarget "Smooth blur transition using storyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB005C71DC186A700F95700 /* Debug */,
+				1AB005C81DC186A700F95700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1AB005C91DC186A700F95700 /* Build configuration list for PBXNativeTarget "Smooth blur transition using storyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB005CA1DC186A700F95700 /* Debug */,
+				1AB005CB1DC186A700F95700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AB005931DC186A600F95700 /* Project object */;
+}
